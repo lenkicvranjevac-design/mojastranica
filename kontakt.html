@@ -6,25 +6,24 @@
     <title>Kontakt</title>
     <title>Document</title>
 </head>
+
 <body>
-  <nav>
-        <a href="index.html">Početna</a> | 
-        <a href="omeni.html">O meni</a> | 
-        <a href="kontakt.html">Kontakt</a>
-    </nav>
-
-    <hr>
-
-    <h1>Kontaktirajte me</h1>
-    <p>Ukoliko imate bilo kakva pitanja, možete mi pisati:</p>
+    <h1>Moj kontakt</h1>
     
-    <p><strong>Email:</strong> <a href="mailto:lenkavranjvac@gmail.com">lenkavranjvac@gmail.com</a></p>
-    <p><strong>Adresa:Hilandarska 2,Pozega</strong></p>
-    <p><strong>Broj telefona:0648130603</strong> </p>
-    <hr>
-
-    <h3>Korisni linkovi</h3>
-    <p>Sajt moje srednje škole:</p>
-    <a href="https://gimnazijapozega.edu.rs/" target="_blank">Gimnazija "Sveti Sava" Požega</a>
+    <a href="omeni.html">O meni</a> | 
+    <a href="index.html">Početna</a> |
+    <li><b>Adresa:</b>Pozega</li>
+    <li><b>Telefon:</b>0648130603</li>
+    <li><b>Email:</b>lenkavranjevac@gmail.com</li>
+    </ul>
+    <form action="mailito:lenkavranjevac@gmail.com" method="post" enctype="text/plain">
+        <label for="">Unesi ime</label>
+        <input type="text" name="tvojeime"><br>
+        <label for="">Unesi email:</label>
+        <input type="email" name="tvojEmail"><br>
+        <label for="">Unesi poruku:</label><br>
+        <textarea name="textPoruke" id="" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="Pošalji">
+    </form>
 </body>
 </html>
